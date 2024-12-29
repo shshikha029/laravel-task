@@ -1,1 +1,7 @@
-
+Steps to setup laravel project:
+1. Create DB in phpmyadmin
+2. Run following commands:
+composer create-project --prefer-dist laravel/laravel laravel-react-app
+cd laravel-react-app
+npm install react react-dom
+npm install --save-dev @babel/preset-react
