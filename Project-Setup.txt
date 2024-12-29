@@ -1,7 +1,24 @@
 Steps to setup laravel project:
 1. Create DB in phpmyadmin
 2. Run following commands:
-composer create-project --prefer-dist laravel/laravel laravel-react-app "10.10.*"
-cd laravel-react-app
-npm install react react-dom
-npm install --save-dev @babel/preset-react
+Step 1 = Download JS from nodejs.org/en/download
+Step 2 = Check version
+node -v
+npm -v
+Step 3 = Install laravel
+ composer create-project laravel/laravel reactjs "10.*"
+Step 4 = npm install
+Step 5 = 
+npm install --save-dev @vitejs/plugin-react
+npm install --save-dev @vitejs/plugin-react
+Step 6
+Make changes in vite.config.js file and import react-vite fplugin
+Step 6
+npm run dev
+Step 7
+npm run build
+Step 8
+npm install react@latest react-dom@latest
+
+Create a new file HelloReact.jsx inside resources/js folder
+run npm run dev 
